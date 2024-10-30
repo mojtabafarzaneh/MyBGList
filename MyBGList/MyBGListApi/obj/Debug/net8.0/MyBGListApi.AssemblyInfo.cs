@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1c7f08bd9c79aa546c47e0b90ffe86acbb2c9ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccd07c478101b183813442ab8542815aa75df6e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
