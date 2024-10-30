@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyBGListApi.DTO;
+using MyBGListApi.Models;
 
 namespace MyBGListApi.Controllers;
 

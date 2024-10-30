@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using MyBGListApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,6 +24,10 @@ builder.Services.AddCors(Options =>
             cfg.AllowAnyMethod();
         });
 });
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

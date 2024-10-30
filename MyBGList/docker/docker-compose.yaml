@@ -1,0 +1,10 @@
+
+services:
+  sql_server:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: sql_server_container
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=mojtaba7878  # Replace with a strong password
+    ports:
+      - "1444:1433"  # Maps container port 1433 to host port 1444
