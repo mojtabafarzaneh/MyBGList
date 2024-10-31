@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cToLDu1hMo4=",
+  "dgSpecHash": "7eeSZz+R45gq20fApoLMk6EbAFQW9QbOxfanJudvYNHJ1jQHqkDGlffIIl+oxfqNaeUticVo7AFaw1G0f/aqRQ==",
   "success": true,
   "projectFilePath": "F:\\projects\\MyBGList\\MyBGList\\MyBGListApi\\MyBGListApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mojta\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\mojta\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.10\\microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -67,6 +68,7 @@
     "C:\\Users\\mojta\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\mojta\\.nuget\\packages\\system.linq.dynamic.core\\1.4.7\\system.linq.dynamic.core.1.4.7.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\mojta\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
