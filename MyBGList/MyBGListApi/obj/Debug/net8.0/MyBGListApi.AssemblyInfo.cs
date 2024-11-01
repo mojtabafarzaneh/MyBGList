@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f945d8e75548c270a7c9b3935969dba5ee22d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9102cb6087829447e8087293283c0391356f605")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBGListApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
