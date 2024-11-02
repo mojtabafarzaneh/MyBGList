@@ -5,6 +5,7 @@ using MyBGListApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Dynamic.Core;
 using MyBGListApi.Attributes;
+using MyBGListApi.Constants;
 using HostingEnvironmentExtensions = Microsoft.AspNetCore.Hosting.HostingEnvironmentExtensions;
 
 
@@ -27,6 +28,7 @@ public class BoardGamesController : ControllerBase
     [ResponseCache(Location = ResponseCacheLocation.Any, Duration = 60)]
     public async Task<RestDTO<BoardGame[]>> Get([FromQuery] RequestDTO<BoardGameDto> input)
     {
+        _logger.LogInformation(CustomLogEvents.BoardGamesController_Get, "Get Method Started");
         var query = _dbContext.BoardGames.AsQueryable();
 
         if (!string.IsNullOrEmpty(input.FilterQuery))
