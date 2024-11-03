@@ -44,15 +44,21 @@ builder.Services.AddControllers(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddCors(Options =>
+
+builder.Services.AddStackExchangeRedisCache(options =>
 {
-    Options.AddDefaultPolicy(cfg =>
+    options.Configuration = builder.Configuration["Redis:ConnectionString"];
+});
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(cfg =>
     {
         cfg.WithOrigins(builder.Configuration["AllowedOrigins"]);
         cfg.AllowAnyHeader();
         cfg.AllowAnyMethod();
     });
-    Options.AddPolicy(name: "AnyOrigin",
+    options.AddPolicy(name: "AnyOrigin",
         cfg =>
         {
             cfg.AllowAnyOrigin();
